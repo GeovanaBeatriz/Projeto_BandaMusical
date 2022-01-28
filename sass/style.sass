@@ -1,0 +1,96 @@
+@use 'variables'
+
+body
+    background-color: variables.$bg-color
+    font-family: Arial, sans-serif
+
+.imgbanda
+    background-image: url("../OneD.jpg")
+    background-position: right top
+    background-repeat: no-repeat
+    background-size: cover
+    height: 500px
+    border-top: 10px solid transparent    
+
+ul
+    text-align: right
+    margin: 20px 50px 0 0 
+
+
+    li
+        display: inline-block
+        list-style: none
+        padding: 10px
+        border: 1px solid variables.$primary-color
+
+
+        a
+            background: black
+            padding: 10px
+            color: white
+            text-decoration: none
+            text-transform: uppercase
+            font-size: 12px
+            opacity: 0.8
+
+
+            &:hover
+                opacity: 0.2
+                list-style: none
+
+.h1details
+    text-align: center
+    color: variables.$primary-color
+    margin-top: 200px
+    
+
+    h1
+        text-transform: uppercase
+        font-size: 46px
+        text-shadow: 15px 15px 30px variables.$secondary-color
+
+    p
+        background-color: variables.$secondary-color
+        border-bottom-style: solid
+        border-color: variables.$primary-color
+        width: 30%
+        padding-top: 15px
+        padding-bottom: 15px
+        opacity: 0.7
+        margin-left: 460px
+    
+main
+    width: 80%
+    margin: auto
+    margin-top: 50px
+
+.content-section
+    background-color: variables.$primary-color
+    padding-left: 15px
+    padding-bottom: 15px
+
+
+.card 
+    display: inline-block
+    padding: 20px
+
+
+#h2title
+    background-color: variables.$bg-color-h2
+    color: variables.$primary-color 
+    border-color: variables.$secondary-color
+    border-bottom-style: solid
+    padding-left: 15px
+    padding-top: 15px
+    padding-bottom: 15px
+    height: 20px
+    margin-right: 15px
+    border: 10px solid variables.$primary-color
+
+
+footer
+    background-color: variables.$footer-color
+    margin-top: 30px
+    text-align: center
+    height: 70px
+    padding-top: 20px
